@@ -8,7 +8,7 @@
 
 ## 公開URL
 
-（GitHub PagesのURLを記載）
+https://chihaya6.github.io/study-log/
 
 ## 使用技術
 
