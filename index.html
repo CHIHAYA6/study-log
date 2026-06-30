@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学習記録アプリ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- .とwindowsキーで絵文字一覧 -->
+    <h1>📚 学習記録アプリ</h1>
+
+    <div class="form">
+      <input
+        type="text"
+        id="studyContent"
+        placeholder="学習内容を入力"
+      >
+
+      <input
+        type="number"
+        id="studyHours"
+        placeholder="勉強時間(時間)"
+      >
+
+      <button id="addBtn">記録する</button>
+    </div>
+
+    <h2>合計勉強時間: <span id="totalHours">0</span> 時間</h2>
+
+    <ul id="recordList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
