@@ -10,6 +10,10 @@
 
 https://chihaya6.github.io/study-log/
 
+## 画面イメージ
+
+![学習記録アプリ](images/study-log.png)
+
 ## 使用技術
 
 * HTML
